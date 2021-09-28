@@ -22,7 +22,6 @@ body{
     text-align: center;
     color: #999999;
     background-color: #fbfbfb;
-    margin-top: O;
     border-bottom: 1px solid grey;
     padding-top: 2em;
 }
@@ -47,7 +46,7 @@ hr{
 #icone li{
     height: inherit;
 }
-#icone_img{
+.icone_img{
     height: inherit;
     text-align: center;
 }
