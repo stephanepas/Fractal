@@ -1,5 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 #hero{
-    /* background-color:dodgerblue; */
+    background-color:dodgerblue;
     width: 100%;
     height: 100vh;
     color: white;
@@ -11,10 +15,10 @@
 #hero_img{
     height: 50vh;
 }
-header div{
+#hero div{
     margin-right: 3em;
 }
-#main{
+#header_main{
     text-align: center;
     color: #999999;
     background-color: #fbfbfb;
@@ -22,44 +26,50 @@ header div{
     border-bottom: 1px solid grey;
     padding-top: 2em;
 }
-#main h2{
+#header_main h2{
     margin-top: 0;
 }
-.trait1{
+hr{
     width: 2em;
     border-bottom: solid grey;
     margin: auto;
     margin-bottom: 1.5em;
 }
 #icone{
+    width: 30%;
+    margin: auto;
+    padding: 0 0 1.5em 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;
+    height: 3em;
 }
-#icone img{
-    height: 5vh;
-    padding: 0 2em 0 0;
+#icone li{
+    height: inherit;
 }
-#nuage{
-    padding-right: 0;
+#icone_img{
+    height: inherit;
+    text-align: center;
 }
 main section{
     padding-top: 2em;
     margin:auto;
-    width: 28em;
+    width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .flou1{
-    width: 30%;
-    border-radius: 100%;
+    width: 7em;
+    height: 7em;
     margin-right: 3em;
+    border-radius: 100%;
     box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
 }
 .flou2{
-    width: 30%;
-    border-radius: 100%;
+    width: 7em;
+    height: 7em;
     margin-left: 3em;
+    border-radius: 100%;
     box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
 }
 #section2{
@@ -67,50 +77,45 @@ main section{
     margin-top: 2em;
     border-top: solid #999999;
 }
-#section3{
+.section3{
     margin-top: 2em;
     border-top: solid #999999;
 }
-#section4{
-    width:28em;
-    margin-top: 2em;
-    border-top: solid #999999;
-}
-#section5{
-    width: 100%;
-    padding: 0;
-}
-
 .iconebas{
-    text-align: center;
     list-style: none;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+}
+.iconebas li{
+    display: flex;
     align-items: center;
 }
 .iconebas img{
-    height: 3vh;
+    height: 2vh;
     margin: 0 1em;
 }
-#section6{
+#section4{
     width: 100%;
     color: #999999;
     background-color: #fbfbfb;
     border-top: 1px solid grey;
-
-}
-#section6 div{
-    display: block;
     text-align: center;
-    width: 28em;
+    display: flex;
+    justify-content: center;
+    
 }
-#section6 div.trait1{
-    width: 2em;
+#section4 div{
+    width: 60%;
 }
-#section6 button{
+#section4 button{
     margin: 0;
     margin-bottom: 2em;
+}
+#button_download{
+    background-color: rgb(31, 40, 161);
+    color: white;
 }
 footer{
     border-top: 1px solid grey;
@@ -124,8 +129,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 3em;
+}
+#iconesocial li{
+    height: inherit;
 }
 #iconesocial img{
-    height: 3vh;
+    height: inherit;
     margin: 0 1em;
 }
