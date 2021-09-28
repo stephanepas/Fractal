@@ -44,11 +44,7 @@ hr{
     height: 3em;
 }
 #icone li{
-    height: inherit;
-}
-.icone_img{
-    height: inherit;
-    text-align: center;
+    display: flex;
 }
 main section{
     padding-top: 2em;
