@@ -12,6 +12,10 @@ body {
   align-items: center;
   text-align: right;
 }
+#hero h1 {
+  margin-top: 0;
+  padding-top: 1em;
+}
 #hero_img {
   height: 50vh;
 }
@@ -116,6 +120,10 @@ footer {
   background-color: #f7f7f7;
   text-align: center;
 }
+footer section p {
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
 #iconesocial {
   text-align: center;
   list-style: none;
@@ -127,6 +135,9 @@ footer {
 }
 #iconesocial li {
   height: inherit;
+}
+#iconesocial p {
+  margin-bottom: 0;
 }
 #iconesocial img {
   height: inherit;
